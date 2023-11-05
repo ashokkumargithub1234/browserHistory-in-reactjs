@@ -1,4 +1,4 @@
-import './App.css'
+/* import './App.css'
 
 import BrowsingHistory from './components/BrowsingHistory'
 
@@ -80,5 +80,15 @@ const initialHistoryList = [
 
 // Replace your code here
 const App = () => <BrowsingHistory historyList={initialHistoryList} />
+
+export default App
+
+*/
+
+import MonthlyEmojis from './MonthlyComponents/MonthlyEmojis'
+
+import './App.css'
+
+const App = () => <MonthlyEmojis />
 
 export default App
